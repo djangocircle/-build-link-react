@@ -1,0 +1,40 @@
+@import "carbon-components/scss/globals/scss/styles.scss";
+
+$primary-color: rgb(137, 207, 240);
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.inner {
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .form {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.bx--batch-actions,
+.bx--batch-actions--active
+.bx--btn--primary,
+.bx--btn {
+  background-color: rgb(8, 146, 208) !important;
+  font-size:1.26rem;
+  padding: 10px 20px !important;
+}
+
+.bx--header__name{
+  font-size: 1.4rem !important;
+}
